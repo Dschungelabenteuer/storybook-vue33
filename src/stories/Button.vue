@@ -7,7 +7,7 @@
 <script lang="ts" setup>
 import "./button.css";
 import { computed } from "vue";
-import useSomething from "./useSomething";
+import { useSomething } from "./useSomething";
 import type { Props } from "./Button.props";
 
 const props = withDefaults(defineProps<Props>(), { primary: false });
